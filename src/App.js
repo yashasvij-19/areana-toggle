@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 
 const App = () => {
-  const [toggle, setToggle] = React.useState(true);
+  const [toggle, setToggle] = React.useState(false);
 
   function handleToggle() {
     let div1 = document.getElementById("welcome-div");
